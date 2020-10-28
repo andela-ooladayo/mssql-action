@@ -1,0 +1,20 @@
+name: 'Setup MSSQL'
+author: 'Oladayo Oyelade'
+branding:
+  color: 'green'
+inputs:
+  port:
+    description: 'MSSQL Port No'
+    required: false
+    default: 1433
+  number of databases:
+    description: 'MSSQL User Password'
+    required: false
+    default: 'password'
+  version:
+    description: 'MSSQL Engine Version'
+    required: false
+    default: '2017-CU8-ubuntu'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
