@@ -7,7 +7,7 @@ This [GitHub Action](https://github.com/features/actions) sets up a Browserless 
 Basic:
 ```yaml
 steps:
-- uses: andela-ooladayo/mssql-action@v1.0
+- uses: andela-ooladayo/mssql-action@v1.1
   with:
     port: 1433
     password: 'password'
