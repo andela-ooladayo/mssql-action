@@ -10,7 +10,7 @@ steps:
 - uses: andela-ooladayo/mssql-action@v1.1
   with:
     port: 1433
-    password: 'password'
+    password: 'RPSsql12345'
     version: '2017-CU8-ubuntu'
 ```
 
